@@ -2,7 +2,7 @@ enabled: true
 id: "hero"
 
 content:
-  title: "**Package** and deploy your Cloud Native apps faster"
+  title: "**Package** and **deploy** Cloud Native apps faster"
   text: "SaasI is a one stop shop for fast Cloud Native app distribution "
 
   buttonPrimary:

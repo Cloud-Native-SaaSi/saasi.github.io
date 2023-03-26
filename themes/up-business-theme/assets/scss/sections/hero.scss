@@ -1,15 +1,13 @@
 .section.hero {
   .hero-image {
-    // @media (min-width: 1400px) {
-    //   img {
-    //     max-width: 125%;
-    //     float: right;
-    //   }
-    // }
+
+    margin: auto;
+    width: 340px;
+     
   }
   .hero-title {
     strong {
-      color: $danger;
+      color: #e5a752;
     }
   }
 }
