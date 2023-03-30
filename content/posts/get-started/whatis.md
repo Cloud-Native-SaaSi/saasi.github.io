@@ -7,7 +7,7 @@ audio : []
 videos : []
 series : []
 tags : []
-draft: true
+draft: false
 buttons: []
 ---
 [Get started]({{< relref "intro" >}})
