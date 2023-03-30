@@ -12,13 +12,18 @@ draft: true
 [Get started]({{< relref "intro" >}}) | [Architecture]({{< relref "architecture" >}})
 
 The *SaaSi console* is an optional component that can be installed to provide visual access to the operations for the managed users:
-* The *exporter* (e.g. the SRE of the software provider) can access the *Exporter* view to manage installable packages:
+
+The *exporter* (e.g. the SRE of the software provider) can access the *Exporter* view to manage installable packages:
 
 ![](/images/exporter-view.png)
-* The *deployer* can access the *Deployer* view to manage client environments:
+
+The *deployer* can access the *Deployer* view to manage client environments:
 
 ![](/images/deployer-view.png)
-* The *admin* takes care of configuring and managing *SaaSi* for what concerns all the system-related aspects (users, performance, troubleshooting)
+
+The *admin* takes care of configuring and managing *SaaSi* for what concerns all the system-related aspects (users, performance, troubleshooting)
+
+![](/images/admin-view.png)
 
 The console is designed as a containerized application and connects the *SaaSi operator* for all the managed operations.
 
