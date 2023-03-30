@@ -34,10 +34,9 @@ menus:
       url: "/#"
       weight: 4
 
-
   buttons:
-    - name: "Get stated"
-      url: "/#"
+    - name: "Get started"
+      url: "/posts/get-started/intro"
       weight: 5
       pre: "btn btn-primary text-light"
 

@@ -3,11 +3,11 @@ id: "hero"
 
 content:
   title: "**Package** and **deploy** Cloud Native apps faster"
-  text: "SaasI is a one stop shop for fast Cloud Native app distribution "
+  text: "SaaSi is a one stop shop for fast Cloud Native app distribution "
 
   buttonPrimary:
     label: "Get Started"
-    url: "#"
+    url: "/posts/get-started/intro"
 
   buttonSecondary:
     label: "Docs"
