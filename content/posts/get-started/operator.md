@@ -15,12 +15,9 @@ The *SaaSi operator* is the orchestrator of the SaaSi engines.
 
 You can install it on a single or on multiple clusters, different deployment options are allowed.
 
-Following is an example of single cluster installation:
-![](/images/single-cluster.png)
+{{< figure src="/images/single-cluster.png" width="800px" caption="Figure 1: an example of single cluster installation" >}}
 
-
-And this is an example of multi cluster installation:
-![](/images/multi-cluster.png)
+{{< figure src="/images/multi-cluster.png" width="1200px" caption="Figure 2: an example of multi cluster installation" >}}
 
 **TODO**
 

@@ -16,7 +16,7 @@ SaaSi runs in Kubernetes and features two processing engines, the *Exporter* and
 from the *Source environment* environment and generate many *Target environment*s with customized replicas of
 the exported application(s).
 
-![](/images/saasi_arch.png)
+{{< figure src="/images/saasi_arch.png" width="1000px" caption="Figure 1: SaaSi architecture" >}}
 
 The [SaaSi console]({{< relref "console" >}}) and the [Saasi operator]({{< relref "operator" >}}) completes the system architecture providing 
 simple management interface and an orchestrated workflow.
