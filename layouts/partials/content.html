@@ -1,6 +1,13 @@
 <!-- Page Content  -->
-<div id="content">
-    <h1>{{ partial "title" . }}</h1>
-    {{ .Content | replaceRE `<nav id="TableOfContents">\s*<ul>\s*<li>\s*<ul>` `<nav id="TableOfContents"><ul>` | replaceRE `</ul>\s*</li>\s*</ul>\s*</nav>` `</ul></nav>` | safeHTML }}
-</div>
-<script type="text/javascript" src="/clipboard-copy.js"></script>
+<section class="section blog-list py-5">
+    <div class="container">
+      <div class="row justify-content-center pb-5">
+        <div class="col-12">
+            <div id="content">
+                <h1 class="fs-1 fw-bold text-center text-primary pb-3">{{ partial "title" . }}</h1>
+                {{ .Content | replaceRE `<nav id="TableOfContents">\s*<ul>\s*<li>\s*<ul>` `<nav id="TableOfContents"><ul>` | replaceRE `</ul>\s*</li>\s*</ul>\s*</nav>` `</ul></nav>` | safeHTML }}
+            </div>
+            <script type="text/javascript" src="/clipboard-copy.js"></script>
+        </div>
+    </div>
+</section>
