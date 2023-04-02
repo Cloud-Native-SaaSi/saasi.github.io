@@ -8,6 +8,7 @@ videos : []
 series : []
 tags : []
 draft: false
+layout: posts
 ---
 [Get started]({{< relref "intro" >}})
 
